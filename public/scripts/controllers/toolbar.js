@@ -1,12 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name pathleteApp.controller:ToolbarCtrl
- * @description
- * # MainCtrl
- * Controller of the pathleteApp toolbar
- */
 app.controller('ToolbarCtrl', function ($scope, $http, $location, Info, Tool) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
